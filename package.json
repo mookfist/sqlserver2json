@@ -1,0 +1,33 @@
+{
+  "name": "sqlserver2json",
+  "version": "0.1.0",
+  "description": "Creates json files from tables in sqlserver database",
+  "main": "bin/sqlserver2json.js",
+  "bin": {
+    "sqlserver2json": "sqlserver2json.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mookfist/sqlserver2json.git"
+  },
+  "author": "mookfist",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mookfist/sqlserver2json/issues"
+  },
+  "bin": {
+    "sqlserver2json": "./bin/sqlserver2json.js"
+  },
+  "homepage": "https://github.com/mookfist/sqlserver2json#readme",
+  "dependencies": {
+    "ansi-escape-sequences": "*",
+    "cli-color": "*",
+    "q": "1.x.x",
+    "clui": "*",
+    "mkdirp": "*",
+    "mssql": "*"
+  }
+}
