@@ -28,6 +28,8 @@
     "q": "1.x.x",
     "clui": "*",
     "mkdirp": "*",
-    "mssql": "*"
+    "mssql": "*",
+    "jsonlint": "*",
+    "child-process-promise": "*"
   }
 }
